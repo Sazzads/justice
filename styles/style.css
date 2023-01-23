@@ -1,0 +1,35 @@
+/* google font  */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Poppins&display=swap');
+
+.garamond {
+    font-family: 'EB Garamond', serif;
+
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.nav-logo {
+    height: 46px;
+    width: 140px;
+}
+
+.containerr {
+    position: relative;
+
+}
+
+.centered {
+    position: absolute;
+}
+
+.card-image1 {
+    width: 71.8px;
+    height: 72.34px;
+}
+.card-image2{
+    width: 40px;
+height: 40px;
+}

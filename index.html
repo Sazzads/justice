@@ -2,36 +2,211 @@
 <html lang="en">
 
 <head>
-  <title>Title</title>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Bootstrap CSS v5.2.1 -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/style.css">
 
 </head>
 
 <body>
-  <header>
-    <!-- place navbar here -->
-  </header>
-  <main>
+    <header class="container">
+        <!-- navbar start -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary poppins my-5">
+            <div class="container-fluid d-flex justify-content-between align-items-center">
+                <div>
+                    <a class="navbar-brand" href="#">
+                        <img class="nav-logo" src="images/logo2.png" alt="Bootstrap" width="30" height="24">
+                    </a>
+                </div>
 
-  </main>
-  <footer>
-    <!-- place footer here -->
-  </footer>
-  <!-- Bootstrap JavaScript Libraries -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
-  </script>
+                <div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
-    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
-  </script>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-semibold">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Services ></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Cases ></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Blog ></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact Us ></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div>
+                    <button type="button" class="btn btn-info bg-info bg-opacity-75  p-2" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Free Consultation
+                    </button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Free Consultation</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Welcome to Free Consultation
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Please Contact with us</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- navbar end -->
+        <!-- header image section start  -->
+
+        <section class="d-flex flex-column justify-content-center align-items-center">
+            <img src="images/banner.png" alt="Snow" style="width:100%;">
+            <div class="centered text-light text-center">
+                <h1 class="garamond fs-1 fw-bold ">We Provide Effective <br> Legal Solutions</h1>
+                <p class="poppins fs-6">The law is complex. We make it fast and easy to get <br>  an answer from a real
+                    lawyer online</p>
+                <!-- form  -->
+                <div class="row justify-content-center">
+                    <div class="col-auto">
+                        <input type="text" class="form-control px-5 mx-3" placeholder="Search your searvice">
+                    </div>
+                    <div class="col-auto">
+                        <label class="col-form-label  btn btn-info bg-info bg-opacity-75  mx-3-2">Search</label>
+                    </div>
+                </div>
+                <!-- form  -->
+            </div>
+        </section>
+        <!-- header image section end -->
+    </header>
+    <main>
+
+        <!-- card section start  -->
+
+        <section class="container d-flex flex-column my-5">
+            <div class="d-flex flex-column text-center align-items-center my-5">
+                <h1 class="garamond">The Legal Practice Area</h1>
+                <p class="poppins fs-6">The law is complex. We make it fast and easy to get <br>  an answer from a real
+                    lawyer online</p>
+            </div>
+            <div class="">
+                <div class="row row-cols-1 row-cols-md-3  g-1">
+
+
+                    <div class="col ">
+                      <div class="card h-100 text-center p-2 border border-secondary rounded-0 py-5">
+                        <img src="images/business.png" class="card-img-top card-image1 m-auto" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title pt-2">Business Law</h5>
+                          <p class="card-text pt-2">The specialty of our firm is that we always try to find out what is the desired outcome of the clients from the services we are rendering to them by the best advocate in Bangladesh</p>
+                        <a href=""><img src="images/Frame.png" class="card-image2 m-auto" alt="..."></a>
+                        </div>
+                      </div>
+                    </div>
+                    
+
+                    <div class="col">
+                      <div class="card h-100 text-center p-2 border border-secondary rounded-0 py-5">
+                        <img src="images/criminal.png" class="card-img-top card-image1 m-auto" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title pt-2">Criminal Law</h5>
+                          <p class="card-text pt-2">The specialty of our firm is that we always try to find out what is the desired outcome of the clients from the services we are rendering to them by the best advocate in Bangladesh</p>
+                        <a href=""><img src="images/Frame.png" class="card-image2 m-auto" alt="..."></a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col">
+                      <div class="card h-100 text-center p-2 border border-secondary rounded-0 py-5">
+                        <img src="images/child.png" class="card-img-top card-image1 m-auto" alt="...">
+                        <div class="card-body ">
+                          <h5 class="card-title pt-2">Child Support</h5>
+                          <p class="card-text pt-2">The specialty of our firm is that we always try to find out what is the desired outcome of the clients from the services we are rendering to them by the best advocate in Bangladesh</p>
+                        <a href=""><img src="images/Frame.png" class="card-image2 m-auto" alt="..."></a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col">
+                      <div class="card h-100 text-center p-2 border border-secondary rounded-0 py-5">
+                        <img src="images/education.png" class="card-img-top card-image1 m-auto" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title pt-2">Education Law</h5>
+                          <p class="card-text pt-2">The specialty of our firm is that we always try to find out what is the desired outcome of the clients from the services we are rendering to them by the best advocate in Bangladesh</p>
+                        <a href=""><img src="images/Frame.png" class="card-image2 m-auto" alt="..."></a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col">
+                      <div class="card h-100 text-center p-2 border border-secondary rounded-0 py-5">
+                        <img src="images/divorce.png" class="card-img-top card-image1 m-auto" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title pt-2">Divorce Law</h5>
+                          <p class="card-text pt-2">The specialty of our firm is that we always try to find out what is the desired outcome of the clients from the services we are rendering to them by the best advocate in Bangladesh</p>
+                        <a href=""><img src="images/Frame.png" class="card-image2 m-auto" alt="..."></a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col">
+                      <div class="card h-100 text-center p-2 border border-secondary rounded-0 py-5">
+                        <img src="images/tax.png" class="card-img-top card-image1 m-auto" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title pt-2">Tax Law</h5>
+                          <p class="card-text pt-2">The specialty of our firm is that we always try to find out what is the desired outcome of the clients from the services we are rendering to them by the best advocate in Bangladesh</p>
+                        <a href=""><img src="images/Frame.png" class="card-image2 m-auto" alt="..."></a>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+ 
+            </div>
+
+        </section>
+                <!-- card section end -->
+                <!-- What Our Client Say start  -->
+                <!-- What Our Client Say end -->
+
+
+    </main>
+    <footer>
+        <!-- place footer here -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
 </body>
 
 </html>
