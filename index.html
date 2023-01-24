@@ -2,340 +2,443 @@
 <html lang="en">
 
 <head>
-    <title>Title</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS v5.2.1 -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/style.css">
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- font awesome  -->
+<script src="https://kit.fontawesome.com/9e9b62f1c2.js" crossorigin="anonymous"></script>
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/style.css">
 
 </head>
 
 <body>
-    <header class="container">
-        <!-- navbar start -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary poppins my-5">
-            <div class="container-fluid d-flex justify-content-between align-items-center">
-                <div>
-                    <a class="navbar-brand" href="#">
-                        <img class="nav-logo" src="images/logo2.png" alt="Bootstrap" width="30" height="24">
-                    </a>
-                </div>
+  <header class="container">
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary poppins my-5">
+      <div class="container-fluid d-flex justify-content-between align-items-center">
+        <div>
+          <a class="navbar-brand" href="#">
+            <img class="nav-logo" src="images/logo2.png" alt="Bootstrap" width="30" height="24">
+          </a>
+        </div>
 
-                <div>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+        <div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-semibold">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Services ></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Cases ></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Blog ></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contact Us ></a>
-                            </li>
-                        </ul>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-semibold ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Cases ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us ></a>
+              </li>
+            </ul>
+            <div class="nav-button">
+              <div>
+                <button type="button" class="btn colour-css text-light p-2" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal">
+                  Free Consultation
+                </button>
+              </div>
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Free Consultation</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                </div>
-
-                <div>
-                    <button type="button" class="btn btn-info bg-info bg-opacity-75  p-2" data-bs-toggle="modal"
-                        data-bs-target="#exampleModal">
-                        Free Consultation
-                    </button>
-                </div>
-                <!-- Modal -->
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h1 class="modal-title fs-5" id="exampleModalLabel">Free Consultation</h1>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                Welcome to Free Consultation
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Please Contact with us</button>
-                            </div>
-                        </div>
+                    <div class="modal-body">
+                      Welcome to Free Consultation
                     </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Please Contact with us</button>
+                    </div>
+                  </div>
                 </div>
+              </div>
             </div>
-        </nav>
-        <!-- navbar end -->
-        <!-- header image section start  -->
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end -->
+    <!-- header image section start  -->
 
-        <section class="d-flex flex-column justify-content-center align-items-center">
-            <img src="images/banner.png" alt="Snow" style="width:100%;">
-            <div class="centered text-light text-center">
-                <h1 class="garamond fs-1 fw-bold ">We Provide Effective <br> Legal Solutions</h1>
-                <p class="poppins fs-6">The law is complex. We make it fast and easy to get <br>  an answer from a real
-                    lawyer online</p>
-                <!-- form  -->
-                <div class="row justify-content-center">
-                    <div class="col-auto">
-                        <input type="text" class="form-control px-5 mx-3" placeholder="Search your searvice">
-                    </div>
-                    <div class="col-auto">
-                        <label class="col-form-label  btn btn-info bg-info bg-opacity-75  mx-3-2">Search</label>
-                    </div>
+    <section class="d-flex flex-column justify-content-center align-items-center">
+      <img src="images/banner.png" alt="Snow" style="width:100%;">
+      <div class="centered text-light text-center">
+        <h1 class="garamond fs-1 fw-bold ">We Provide Effective <br> Legal Solutions</h1>
+        <p class="poppins fs-6">The law is complex. We make it fast and easy to get <br> an answer from a real
+          lawyer online</p>
+        <!-- form  -->
+        <div class="row justify-content-center">
+          <div class="col-auto">
+            <input type="text" class="form-control px-5 mx-3" placeholder="Search your searvice">
+          </div>
+          <div class="col-auto">
+            <label class="col-form-label  btn colour-css text-light mx-3-2">Search</label>
+          </div>
+        </div>
+        <!-- form  -->
+      </div>
+    </section>
+    <!-- header image section end -->
+  </header>
+  <main>
+
+    <!-- card section start  -->
+
+    <section class="container d-flex flex-column my-5">
+      <div class="d-flex flex-column text-center align-items-center my-5">
+        <h1 class="garamond">The Legal Practice Area</h1>
+        <p class="poppins fs-6">The law is complex. We make it fast and easy to get <br> an answer from a real
+          lawyer online</p>
+      </div>
+      <div class="">
+        <div class="row row-cols-1 row-cols-md-3  g-0">
+
+
+          <div class="col ">
+            <div class="card h-100 text-center p-2 border border-secondary rounded-0 py-5">
+              <img src="images/business.png" class="card-img-top card-image1 m-auto" alt="...">
+              <div class="card-body">
+                <h5 class="card-title pt-2">Business Law</h5>
+                <p class="card-text pt-2">The specialty of our firm is that we always try to find out what is the
+                  desired outcome of the clients from the services we are rendering to them by the best advocate in
+                  Bangladesh</p>
+                <a href=""><img src="images/Frame.png" class="card-image2 m-auto" alt="..."></a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col">
+            <div class="card h-100 text-center p-2 border border-secondary rounded-0 py-5">
+              <img src="images/criminal.png" class="card-img-top card-image1 m-auto" alt="...">
+              <div class="card-body">
+                <h5 class="card-title pt-2">Criminal Law</h5>
+                <p class="card-text pt-2">The specialty of our firm is that we always try to find out what is the
+                  desired outcome of the clients from the services we are rendering to them by the best advocate in
+                  Bangladesh</p>
+                <a href=""><img src="images/Frame.png" class="card-image2 m-auto" alt="..."></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 text-center p-2 border border-secondary rounded-0 py-5">
+              <img src="images/child.png" class="card-img-top card-image1 m-auto" alt="...">
+              <div class="card-body ">
+                <h5 class="card-title pt-2">Child Support</h5>
+                <p class="card-text pt-2">The specialty of our firm is that we always try to find out what is the
+                  desired outcome of the clients from the services we are rendering to them by the best advocate in
+                  Bangladesh</p>
+                <a href=""><img src="images/Frame.png" class="card-image2 m-auto" alt="..."></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 text-center p-2 border border-secondary rounded-0 py-5">
+              <img src="images/education.png" class="card-img-top card-image1 m-auto" alt="...">
+              <div class="card-body">
+                <h5 class="card-title pt-2">Education Law</h5>
+                <p class="card-text pt-2">The specialty of our firm is that we always try to find out what is the
+                  desired outcome of the clients from the services we are rendering to them by the best advocate in
+                  Bangladesh</p>
+                <a href=""><img src="images/Frame.png" class="card-image2 m-auto" alt="..."></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 text-center p-2 border border-secondary rounded-0 py-5">
+              <img src="images/divorce.png" class="card-img-top card-image1 m-auto" alt="...">
+              <div class="card-body">
+                <h5 class="card-title pt-2">Divorce Law</h5>
+                <p class="card-text pt-2">The specialty of our firm is that we always try to find out what is the
+                  desired outcome of the clients from the services we are rendering to them by the best advocate in
+                  Bangladesh</p>
+                <a href=""><img src="images/Frame.png" class="card-image2 m-auto" alt="..."></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 text-center p-2 border border-secondary rounded-0 py-5">
+              <img src="images/tax.png" class="card-img-top card-image1 m-auto" alt="...">
+              <div class="card-body">
+                <h5 class="card-title pt-2">Tax Law</h5>
+                <p class="card-text pt-2">The specialty of our firm is that we always try to find out what is the
+                  desired outcome of the clients from the services we are rendering to them by the best advocate in
+                  Bangladesh</p>
+                <a href=""><img src="images/Frame.png" class="card-image2 m-auto" alt="..."></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+    <!-- card section end -->
+
+    <!-- What Our Client Say start  -->
+    <section class="container d-flex flex-column my-5">
+      <div class="d-flex flex-column text-center align-items-center my-5">
+        <h1 class="garamond">What Our Client Say</h1>
+        <p class="poppins fs-6">The law is complex. We make it fast and easy to get <br> an answer from a real
+          lawyer online</p>
+      </div>
+      <div class="">
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+
+            <div class="carousel-item active">
+              <img src="images/Rectangle 7.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block mb-5 pb-5">
+                <img src="images/sazzad.png" class="rounded-circle carusel-image-icon mb-4" alt="">
+                <h5 class="mb-4">Sazzad Hossain</h5>
+                <p class="mb-4">Ui/Ux Designer</p>
+                <p class="mb-4">Traditional products often require multiple tools to work together for desired results.
+                  By contrast, Pixso owns component variants, supports automatic layout, UI/UX design and prototype
+                  playback. That's why you can complete high-fidelity product design with nothing else but Pixso.</p>
+              </div>
+            </div>
+
+            <div class="carousel-item ">
+              <img src="images/Rectangle 7.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block mb-5 pb-5">
+                <img src="images/sazzad2.png" class="rounded-circle carusel-image-icon mb-4" alt="">
+                <h5 class="mb-4">rajjak Hossain</h5>
+                <p class="mb-4">Ui/Ux Designer</p>
+                <p class="mb-4">Traditional products often require multiple tools to work together for desired results.
+                  By contrast, Pixso owns component variants, supports automatic layout, UI/UX design and prototype
+                  playback. That's why you can complete high-fidelity product design with nothing else but Pixso.</p>
+              </div>
+            </div>
+            <div class="carousel-item ">
+              <img src="images/Rectangle 7.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block mb-5 pb-5">
+                <img src="images/sazzad3.png" class="rounded-circle carusel-image-icon mb-4" alt="">
+                <h5 class="mb-4">rajib Hossain</h5>
+                <p class="mb-4">Ui/Ux Designer</p>
+                <p class="mb-4">Traditional products often require multiple tools to work together for desired results.
+                  By contrast, Pixso owns component variants, supports automatic layout, UI/UX design and prototype
+                  playback. That's why you can complete high-fidelity product design with nothing else but Pixso.</p>
+              </div>
+            </div>
+
+
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- What Our Client Say end -->
+    <!-- faq start  -->
+    <section class="container d-flex flex-column my-5">
+      <div class="d-flex flex-column text-center align-items-center my-5">
+        <h1 class="garamond">Frequently Asked Any Questions</h1>
+        <p class="poppins fs-6">a question in a list of questions and answers intended to<br> help people understand a
+          particular subject</p>
+      </div>
+      <div class="px-3  ">
+        <div class="row row-cols-1 row-cols-md-2  g-4">
+          <div class="col">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne">
+                    Difference between grid and flexbox?
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Flexbox and a grid. Flexbox was created for layout in one dimension, which may be either a row or a
+                    column, as opposed to CSS Grid Layout, which was developed for layout in two dimensions. Grid was
+                    intended for simultaneous rows and columns in a two-dimensional arrangement.
+                  </div>
                 </div>
-                <!-- form  -->
-            </div>
-        </section>
-        <!-- header image section end -->
-    </header>
-    <main>
-
-        <!-- card section start  -->
-
-        <section class="container d-flex flex-column my-5">
-            <div class="d-flex flex-column text-center align-items-center my-5">
-                <h1 class="garamond">The Legal Practice Area</h1>
-                <p class="poppins fs-6">The law is complex. We make it fast and easy to get <br>  an answer from a real
-                    lawyer online</p>
-            </div>
-            <div class="">
-                <div class="row row-cols-1 row-cols-md-3  g-1">
-
-
-                    <div class="col ">
-                      <div class="card h-100 text-center p-2 border border-secondary rounded-0 py-5">
-                        <img src="images/business.png" class="card-img-top card-image1 m-auto" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title pt-2">Business Law</h5>
-                          <p class="card-text pt-2">The specialty of our firm is that we always try to find out what is the desired outcome of the clients from the services we are rendering to them by the best advocate in Bangladesh</p>
-                        <a href=""><img src="images/Frame.png" class="card-image2 m-auto" alt="..."></a>
-                        </div>
-                      </div>
-                    </div>
-                    
-
-                    <div class="col">
-                      <div class="card h-100 text-center p-2 border border-secondary rounded-0 py-5">
-                        <img src="images/criminal.png" class="card-img-top card-image1 m-auto" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title pt-2">Criminal Law</h5>
-                          <p class="card-text pt-2">The specialty of our firm is that we always try to find out what is the desired outcome of the clients from the services we are rendering to them by the best advocate in Bangladesh</p>
-                        <a href=""><img src="images/Frame.png" class="card-image2 m-auto" alt="..."></a>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="col">
-                      <div class="card h-100 text-center p-2 border border-secondary rounded-0 py-5">
-                        <img src="images/child.png" class="card-img-top card-image1 m-auto" alt="...">
-                        <div class="card-body ">
-                          <h5 class="card-title pt-2">Child Support</h5>
-                          <p class="card-text pt-2">The specialty of our firm is that we always try to find out what is the desired outcome of the clients from the services we are rendering to them by the best advocate in Bangladesh</p>
-                        <a href=""><img src="images/Frame.png" class="card-image2 m-auto" alt="..."></a>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="col">
-                      <div class="card h-100 text-center p-2 border border-secondary rounded-0 py-5">
-                        <img src="images/education.png" class="card-img-top card-image1 m-auto" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title pt-2">Education Law</h5>
-                          <p class="card-text pt-2">The specialty of our firm is that we always try to find out what is the desired outcome of the clients from the services we are rendering to them by the best advocate in Bangladesh</p>
-                        <a href=""><img src="images/Frame.png" class="card-image2 m-auto" alt="..."></a>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="col">
-                      <div class="card h-100 text-center p-2 border border-secondary rounded-0 py-5">
-                        <img src="images/divorce.png" class="card-img-top card-image1 m-auto" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title pt-2">Divorce Law</h5>
-                          <p class="card-text pt-2">The specialty of our firm is that we always try to find out what is the desired outcome of the clients from the services we are rendering to them by the best advocate in Bangladesh</p>
-                        <a href=""><img src="images/Frame.png" class="card-image2 m-auto" alt="..."></a>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="col">
-                      <div class="card h-100 text-center p-2 border border-secondary rounded-0 py-5">
-                        <img src="images/tax.png" class="card-img-top card-image1 m-auto" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title pt-2">Tax Law</h5>
-                          <p class="card-text pt-2">The specialty of our firm is that we always try to find out what is the desired outcome of the clients from the services we are rendering to them by the best advocate in Bangladesh</p>
-                        <a href=""><img src="images/Frame.png" class="card-image2 m-auto" alt="..."></a>
-                        </div>
-                      </div>
-                    </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    What is the purpose of media query?
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    In order to create different layouts depending on the size of the viewport, media queries are an
+                    essential component of responsive web design. However, they can also be used to detect other aspects
+                    of the environment in which your site is being viewed, such as whether the user is using a
+                    touchscreen instead of a mouse.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    What is css box model? how does it work?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    The size and dimensions of components on a web page may be determined using the CSS box model. Each
+                    HTML element is given a rectangular box that has four components: the content, padding, borders, and
+                    margins.
+                    When determining the size of an element, the browser starts with the width and height of the
+                    content, then adds the padding and border to that, and finally adds the margins. The total size of
+                    the box is the sum of all these parts. For example, if an element has a width of 200px, a padding of
+                    20px, a border of 10px, and a margin of 30px, the total width of the element's box would be 290px
+                    (200px + 20px + 10px + 30px). This is useful for positioning and layout of elements in web pages.
 
                   </div>
- 
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                    What is semantic tag?
+                  </button>
+                </h2>
+                <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Semantic HTML is a grammar that clarifies the various sections and page layouts in HTML to make it
+                    easier to understand. It improves the adaptability and information on web pages, which helps
+                    browsers and search engines understand the material.
+
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
 
-        </section>
-                <!-- card section end -->
-
-                <!-- What Our Client Say start  -->
-                <section class="container d-flex flex-column my-5">
-                    <div class="d-flex flex-column text-center align-items-center my-5">
-                        <h1 class="garamond">What Our Client Say</h1>
-                        <p class="poppins fs-6">The law is complex. We make it fast and easy to get <br>  an answer from a real
-                            lawyer online</p>
-                    </div>
-                    <div class="">
-                        <div id="carouselExampleCaptions" class="carousel slide">
-                            <div class="carousel-indicators">
-                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                            </div>
-                            <div class="carousel-inner">
-
-                              <div class="carousel-item active">
-                                <img src="images/Rectangle 7.png" class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-none d-md-block mb-5 pb-5">
-                                    <img src="images/sazzad.png" class="rounded-circle carusel-image-icon mb-4" alt="">
-                                  <h5 class="mb-4">Sazzad Hossain</h5>
-                                  <p class="mb-4">Ui/Ux Designer</p>
-                                  <p class="mb-4">Traditional products often require multiple tools to work together for desired results. By contrast, Pixso owns component variants, supports automatic layout, UI/UX design and prototype playback. That's why you can complete high-fidelity product design with nothing else but Pixso.</p>
-                                </div>
-                              </div>
-
-                              <div class="carousel-item ">
-                                <img src="images/Rectangle 7.png" class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-none d-md-block mb-5 pb-5">
-                                    <img src="images/sazzad2.png" class="rounded-circle carusel-image-icon mb-4" alt="">
-                                  <h5 class="mb-4">rajjak Hossain</h5>
-                                  <p class="mb-4">Ui/Ux Designer</p>
-                                  <p class="mb-4">Traditional products often require multiple tools to work together for desired results. By contrast, Pixso owns component variants, supports automatic layout, UI/UX design and prototype playback. That's why you can complete high-fidelity product design with nothing else but Pixso.</p>
-                                </div>
-                              </div>
-                              <div class="carousel-item ">
-                                <img src="images/Rectangle 7.png" class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-none d-md-block mb-5 pb-5">
-                                    <img src="images/sazzad3.png" class="rounded-circle carusel-image-icon mb-4" alt="">
-                                  <h5 class="mb-4">rajib Hossain</h5>
-                                  <p class="mb-4">Ui/Ux Designer</p>
-                                  <p class="mb-4">Traditional products often require multiple tools to work together for desired results. By contrast, Pixso owns component variants, supports automatic layout, UI/UX design and prototype playback. That's why you can complete high-fidelity product design with nothing else but Pixso.</p>
-                                </div>
-                              </div>
-
-    
-                            </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                              <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                              <span class="visually-hidden">Next</span>
-                            </button>
-                          </div>
-                    </div>
-                </section>
-                <!-- What Our Client Say end -->
-                <!-- faq start  -->
-                <section class="container d-flex flex-column my-5">
-                    <div class="d-flex flex-column text-center align-items-center my-5">
-                        <h1 class="garamond">Frequently Asked Any Questions</h1>
-                        <p class="poppins fs-6">a question in a list of questions and answers intended to<br>   help people understand a particular subject</p>
-                    </div>
-                    <div class="px-3  ">
-                        <div class="row row-cols-1 row-cols-md-2  g-4">
-                            <div class="col">
-                                <div class="accordion" id="accordionExample">
-                                    <div class="accordion-item">
-                                      <h2 class="accordion-header" id="headingOne">
-                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                          Difference between grid and flexbox?
-                                        </button>
-                                      </h2>
-                                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            Flexbox and a grid. Flexbox was created for layout in one dimension, which may be either a row or a column, as opposed to CSS Grid Layout, which was developed for layout in two dimensions. Grid was intended for simultaneous rows and columns in a two-dimensional arrangement.
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                      <h2 class="accordion-header" id="headingTwo">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                          What is the purpose of media query?
-                                        </button>
-                                      </h2>
-                                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            In order to create different layouts depending on the size of the viewport, media queries are an essential component of responsive web design. However, they can also be used to detect other aspects of the environment in which your site is being viewed, such as whether the user is using a touchscreen instead of a mouse.
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                      <h2 class="accordion-header" id="headingThree">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                          Accordion Item #3
-                                        </button>
-                                      </h2>
-                                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                                        </div>
-                                      </div>
-                                    </div>
-
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingThree">
-                                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
-                                            Accordion Item #4
-                                          </button>
-                                        </h2>
-                                        <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                          <div class="accordion-body">
-                                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                                          </div>
-                                        </div>
-                                      </div>
-                                  </div>
-                            </div>
-
-                            <div class="col text-center">
-                                <img class="w-50" src="images/faq.png" alt="">
-                            </div>
+          <div class="col text-center">
+            <img class="w-50" src="images/faq.png" alt="">
+          </div>
 
 
-                        </div>
-                    </div>
-                </section>
-                <!-- faq end -->
+        </div>
+      </div>
+    </section>
+    <!-- faq end -->
 
 
-    </main>
-    <footer>
-        <!-- place footer here -->
-    </footer>
-    <!-- Bootstrap JavaScript Libraries -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
-        </script>
+  </main>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
-        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
-        </script>
+  <!--  footer start -->
+  <footer class="container-fluid bg-dark">
+    <div class="container text-center">
+      <div class="row p-5">
+        <div class="col text-start">
+          <img src="images/logo.png" alt="">
+        <p class="text-light pt-4">Justice, quite simply, forms the foundation of a civilised society. Societies without just laws tend to be harsh
+          and intolerant, often leading to conflict. We hold up the rule of law and the ideal of justice as being blind to
+          social status, wealth or anything else.</p>
+        </div>
+        <div class="col text-light text-start">
+          <a class="navbar-brand text-start" href="#"><h3>Usefull Link</h3></a>
+          <div class="navbar-nav pt-4">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">About Us</a>
+            <a class="nav-link" href="#">Cases</a>
+            <a class="nav-link" href="#">Blog</a>
+            <a class="nav-link" href="#">Contact Us</a>
+          </div>
+        </div>
+        <div class="col text-start text-light">
+          <a class="navbar-brand text-start " href="#"><h3>Contact Now</h3></a>
+          <p class="pt-4">Supreme Court of Bangladesh Address: PCJ3+698, Dhaka 1000</p>
+          <p class="pt-2">+8801733439812 <br>
+            +8801719815740
+          </p>
+          <p class="pt-2">info@gmail.com<br>
+            info@gmail.com 
+          </p>
+
+        </div>
+        <div class="col">
+          <div class="container text-start text-light">
+            <div class="col">
+              <div class="row">
+                <h3 class="">Subscribe</h3>
+              </div>
+              <div class="row pt-4">
+              <p>An individual subscription provides you unlimited access to our mobile optimized sites. Enjoy anytime, anywhere access on your desktop or mobile device.</p>
+              </div>
+              <div class="row  pt-2">
+                <form action="">
+                  <input class="py-2" type="text" placeholder="Email Address">
+                  <button class=" py-2 px-3 colour-css rounded"><i class="fa-brands fa-telegram"></i></button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </footer>
+  <!--  footer end -->
+
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
